@@ -1,0 +1,28 @@
+﻿Build started 2012-12-05 4:34:29 PM.
+     1>Project "C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Cubic Spline.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ass3.cpp GaussJordan.cpp
+         GaussJordan.cpp
+     1>c:\users\tim\documents\school\numerical\cubic spline\gaussjordan.cpp(75): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ass3.cpp
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(62): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(35): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(197): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(186): warning C4101: 'sigdat' : unreferenced local variable
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(186): warning C4101: 'residual' : unreferenced local variable
+     1>c:\users\tim\documents\school\numerical\cubic spline\ass3.cpp(186): warning C4101: 'sigma2' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Debug\Cubic Spline.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Debug\Cubic Spline.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Debug\Cubic Spline.lib" /MACHINE:X86 Debug\ass3.obj
+         Debug\GaussJordan.obj
+         Cubic Spline.vcxproj -> C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Debug\Cubic Spline.exe
+     1>Done Building Project "C:\Users\Tim\Documents\School\Numerical\Cubic Spline\Cubic Spline.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32
